@@ -114,6 +114,7 @@ img {
 	max-width: 950px;
 	min-height: 550px;
 	margin: 0 auto;
+	color: #1f2937;
 }
 
 .card {
@@ -151,8 +152,6 @@ img {
 
 .light-bg {
 	background-color: white;
-	color: #1f2937;
-	margin-bottom: 60px;
 }
 
 #card-1,
@@ -174,4 +173,64 @@ img {
 }
 #card-4 {
 	background-image: url(https://images.unsplash.com/photo-1595511890410-3b8dc237a537?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80);
+}
+
+.grey-bg {
+	background-color: #e5e7eb;
+}
+
+.quote {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 950px;
+	margin: 0 auto;
+	color: #1f2937;
+}
+
+.quote-text {
+	font-size: 36px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.quote-container {
+	max-width: 800px;
+	margin: 100px;
+}
+
+.author {
+	font-size: 28px;
+	margin-top: 16px;
+	font-weight: 900;
+	text-align: right;
+}
+
+.sign-up {
+	min-height: 300px;
+	display: flex;
+	align-items: center;
+}
+
+.sign-box {
+	max-width: 950px;
+	background-color: #3882f6;
+	margin: 0 auto;
+	padding: 40px 80px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.sign-text {
+	margin-right: 80px;
+}
+
+.sign-up button {
+	font-weight: 900;
+	padding: 8px 24px;
+	border-radius: 5px;
+	border: 2px solid white;
+	background-color: #3882f6;
+	color: white;
 }
