@@ -100,8 +100,8 @@ img {
 
 .card {
 	text-align: center;
-	width: 150px;
-	margin: 30px;
+	width: 200px;
+	margin: 18px;
 }
 
 .cards-header {
@@ -126,8 +126,8 @@ img {
 .card-image {
 	border: 2px solid #3882f6;
 	border-radius: 5px;
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
 	margin-bottom: 20px;
 }
 
