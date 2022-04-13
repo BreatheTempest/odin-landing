@@ -26,12 +26,13 @@ ul {
 }
 
 a {
+	font-size: 18px;
 	text-decoration: none;
-	color: white;
+	color: #e5e7eb;
 }
 
 a:hover {
-	border-bottom: solid 1px white;
+	border-bottom: solid 1px #e5e7eb;
 }
 
 header {
@@ -48,20 +49,42 @@ header {
 }
 
 img {
-	max-height: 300px;
+	border-radius: 5px;
 	flex: 1;
+	max-width: 400px;
 }
 
 .hero {
 	display: flex;
 	justify-content: space-between;
-	align-items: stretch;
 	background-color: #1f2937;
 	max-width: 800px;
-	margin: 0 auto;
+	margin: 0 auto 60px auto;
+	max-height: 400px;
 }
 
 .container {
 	flex: 1;
-	max-width: 300px;
+	margin-right: 100px;
+}
+
+.hero h1 {
+	font-size: 48px;
+	font-weight: 900;
+	margin-bottom: 16px;
+}
+
+.hero p {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.hero button {
+	margin-top: 16px;
+	font-weight: 900;
+	padding: 8px 24px;
+	border-radius: 5px;
+	border: none;
+	background-color: #3882f6;
+	color: #e5e7eb;
 }
